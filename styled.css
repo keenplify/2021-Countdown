@@ -130,6 +130,12 @@ h1.meme b {
     height: 200vh;
 }
 
+.auhandler {
+    visibility: hidden; 
+    position: absolute; 
+    top: 0;
+}
+
 @media (max-width:991px) {
     .container .imgBx {
         display: none;
