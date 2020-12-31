@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    
+    color: white;
 }
 
 .container {
@@ -116,10 +118,13 @@ h1.meme {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
 }
 h1.meme b {
     color: yellow
+}
+
+.footer {
+    margin-top: 5rem
 }
 
 #confetti {
