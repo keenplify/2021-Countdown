@@ -124,7 +124,8 @@ h1.meme b {
 }
 
 .footer {
-    margin-top: 5rem
+    margin-top: 5rem;
+    text-align: center;
 }
 
 #confetti {
