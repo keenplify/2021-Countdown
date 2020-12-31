@@ -10,7 +10,7 @@
     <div class="container">
         <div class="imgBx"></div>
         <div class="countdownBx">
-            <h2>Countdown to New Year <br><span>20<i>21</i></span></h2>
+            <h2>Countdown to New Year</h2>
             <div class="countdown">
                 <div id="day">00</div>
                 <div id="hour">00</div>
@@ -39,9 +39,13 @@
             document.getElementById('hour').innerText = h;
             document.getElementById('minute').innerText = m;
             document.getElementById('second').innerText = s;
+            if(gap <= 0) {
+                clearInterval(interval)
+                document.location= 'newyear.html'
+            }
         }
 
-        setInterval(function() {
+        let interval = setInterval(function() {
             newYear()
         })
     </script>
